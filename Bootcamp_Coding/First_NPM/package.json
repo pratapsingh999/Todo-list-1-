@@ -1,0 +1,31 @@
+{
+  "name": "@di-bootcamp/first-npm",
+  "version": "1.0.0",
+  "description": "\"Publishing first react to npm\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "rollup -c rollup.config.mjs -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adithyavasudevan/pw-academy-fa-bootcamp.git"
+  },
+  "author": "Yashaswini",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "rollup": "^4.2.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-serve": "^2.0.2"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.2",
+    "@babel/preset-react": "^7.22.15",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
